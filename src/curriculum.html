@@ -17,13 +17,10 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="..\img\logo.png" alt="Logo" width="70" height="90" class="d-inline-block align-text-top">
-              I.Arleof
+            <a class="navbar-brand" href="..\index.html">
+                <img src="..\img\logo.png" alt="Logo" width="70" height="90" class="d-inline-block align-text-top">
+                I.Arleof
             </a>
-          </div>
-        <div class="container-fluid">
-            <a class="navbar-brand" href="..\index.html">I.Arleof</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -65,9 +62,12 @@
                 <label for="email" class="form-label">Email</label>
                 <input type="email" class="form-control" id="email" placeholder="xxxxxx@gmail.com">
             </div>
+            <p>Estudios anteriores:<input list="lista"></p>
             <div class="mb-3">
-                <label for="email" class="form-label">Fecha de nacimiento</label>
-                <input type="date" class="form-control" id="email" placeholder="1967-01-01">
+                <datalist id="lista">
+                    <option value="ESO">
+                    <option value="Bachillerato">
+                    <option value="Estudios superiores">
             </div>
             <div class="mb-3">
                 <label for="email" class="form-label">Telefono</label>

@@ -59,12 +59,14 @@
                 <label for="email" class="form-label">Email</label>
                 <input type="email" class="form-control" id="email" placeholder="xxxxxx@gmail.com">
             </div>
+            <p>Estudios anteriores:<input  list="lista"></p>
             <div class="mb-3">
-                <label for="estudios" class="form-label">Estudios anteriores</label>
-                <input type="radio" class="form-control" id="estudios">
-                <input type="radio" value="1">Coche<br>
-                <input type="radio" name="transporte" value="2">Avión<br>
-                <input type="radio" name="transporte" value="3">Tren
+            <datalist id="lista" >
+              <option value="ESO" >
+              <option value="Bachillerato" >
+              <option value="Estudios superiores" >
+            </div>
+            </datalist>
             <input type="submit" class="btn btn-primary" value="Enviar" />
     </div>
     </form>

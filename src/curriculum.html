@@ -49,14 +49,22 @@
         <form method="post">
             <div class="mb-3">
                 <label for="nombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="nombre" placeholder="Inés">
+                <input type="text" class="form-control" id="nombre" placeholder="">
             </div>
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre"><br>
-            <label for="apellido">Apellidos</label>
-            <input type="text" id="apellido"><br>
-            <label for="email">Email</label>
-            <input type="email" id="email"><br>
+            <div class="mb-3">
+                <label for="apellido" class="form-label">Apellidos</label>
+                <input type="text" class="form-control" id="apellido" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="xxxxxx@gmail.com">
+            </div>
+            <div class="mb-3">
+                <label for="estudios" class="form-label">Estudios anteriores</label>
+                <input type="radio" class="form-control" id="estudios">
+                <input type="radio" value="1">Coche<br>
+                <input type="radio" name="transporte" value="2">Avión<br>
+                <input type="radio" name="transporte" value="3">Tren
             <input type="submit" class="btn btn-primary" value="Enviar" />
     </div>
     </form>

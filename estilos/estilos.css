@@ -34,5 +34,5 @@ h3.diseñoh {
 }
 
 body {
-    background-image: var(bg-darkbg-gradient);
+    /**background-image: var(bg-darkbg-gradient);**/
 }

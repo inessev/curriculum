@@ -77,23 +77,22 @@
                     <option value="ea"> Estudios superiores</option>
                 </select>
                 <br>
-                <input type="checkbox" name="condiciones" checked="checked" value="Acepto"> Acepto la
-                <a href="Normativa.html">normativa</a></p>
+                <input type="checkbox" name="condiciones" checked="checked" value="Acepto" id="AcePto"><label for="AcePto" class="form-label">Acepto la
+                <a href="Normativa.html">normativa</a></label> 
                 <br>
                 <label for="sexo" class="form-label">Sexo:</label><br>
-                <input type="radio" name="sexo" value="h"> Mujer
-                <input type="radio" name="sexo" value="m"> Hombre
-                <input type="radio" name="sexo" value="p"> Prefiero no contestar
+                <input type="radio" name="sexo" value="h" id="sexoMujer"><label for="sexoMujer" class="form-label">Mujer</label>
+                <input type="radio" name="sexo" value="m" id="sexoHombre"><label for="sexoHombre" class="form-label">Hombre</label>
+                <input type="radio" name="sexo" value="p" id="sexoNoCo"> <label for="sexoNoCo" class="form-label">Prefiero no contestar</label>
                 <br>
+                <label for="aporta">Que puedes aportar a nuestra empresa</label>:</label>
                 <pre>
-                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
                 </pre>
-                <label for="aporta">Que puedes aportar a nuestra empresa:</label>
-                <br>
-                <textarea id="aporta" name="w3review" rows="4" cols="50"
-                    placeholder="Escriba al menos tres cualidades"></textarea>
+                <textarea id="aporta" name="w3review" rows="4" cols="50" placeholder="Escriba al menos tres cualidades"></textarea>
             </div>
-            <p> <input type="reset" value="Borrar"> </p><br>
+            <p> <input type="reset"  value="Borrar"> </p><br>
             <input type="submit" class="btn btn-primary" value="Enviar" />
     </div>
     </form>

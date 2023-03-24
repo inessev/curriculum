@@ -1,7 +1,7 @@
 form {
     border-radius: 200px;
 }
-body.cuerpo {
+body.cuerpo.uno {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 154, 230);
 }

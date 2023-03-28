@@ -34,4 +34,5 @@ h3.diseñoh {
 
 #navbarSupportedContent{
     background-color:rgb(198, 202, 255);
+    --bs-bg-opacity: 0;
 }

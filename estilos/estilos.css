@@ -32,7 +32,7 @@ h3.diseñoh {
         'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#navbarSupportedContent{
-    background-color:rgb(198, 202, 255);
+#nav.navbar.navbar-expand-lg.bg-body-tertiary{
+    background-color: rgb(198, 202, 255);
     --bs-bg-opacity: 0;
 }
